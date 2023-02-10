@@ -1,0 +1,18 @@
+Data Structure And Algorithm
+
+to solve real world problem with the help of program.
+
+Lecture 1.
+
+- Pseudocode
+- Flowchart
+- what is program
+- What is Programming Language.
+- machine language, binary language
+
+Flowchart: Diagramatic approch to solve a problem with the help of different component.
+Pseudocode: Generic way of writing code
+
+Question [HW]: Valid Triangele or not?
+ 
+
