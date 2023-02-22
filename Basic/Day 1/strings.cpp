@@ -44,11 +44,54 @@ int main()
 
     // string length ==> .length()
 
-    string txt = "Muhammad bilal";
-    cout << txt.length();
+    // string txt = "Muhammad bilal";
+    // cout << txt.length();
 
     // you can also try .size() method
-    cout << txt.size();
+    // cout << txt.size();
+
+    // Access String
+
+    // we can access string by just by just refer its index number
+
+    // string greet = "hello";
+
+    // char ch = greet[0];
+
+    // cout << ch << endl;
+    /** Note: String indexes start with 0: [0] is the first character. [1] is the second character, etc. */
+
+    // change first character of string
+
+    // string myString = "Hello";
+    // myString[0] = 'J';
+    // cout << myString << endl;
+
+    // String Special Character
+    //  String written in double qoutes so C++ misunderstood speacial character
+
+    // Use backslash( \ ) to turns special character to an string
+
+    // string sp = "that\'s why she called Mader-e-Millat \"The Mother of the Nation\"";
+    // cout << sp << endl;
+
+    // Usre Input String
+    //  cin considers a space (whitespace, tabs, etc) as a terminating character, which means that it can only display a single word (even if you type many words.
+
+    // getLine() Function, cin as first parameter and string as second veriable
+    string fullname;
+
+    // cout << "Enter your full name: ";
+    // getline(cin, fullname);
+    // cout << fullname;
+
+    // C++ String Namespace || Omitting NameSpace
+
+    // You might see some C++ programs that runs without the standard namespace library.
+    //  The using namespace std line can be omitted and replaced with the std keyword, followed by the :: operator for string (and cout) objects:
+
+std::cout<<"Omiting namespace";
+
 
     return 0;
 }
